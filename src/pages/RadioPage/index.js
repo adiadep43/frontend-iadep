@@ -19,7 +19,7 @@ export default function RadioPage(){
         nav.classList.toggle('active');
     }
     let playlist = [
-        { src: "http://www.radioideal.net:8102/stream",
+        { src: "http://stream.zeno.fm/uw4tnq7n6tzuv",
           title: "Rádio Iadep",
           artist: "Ao Vivo" },
       ];

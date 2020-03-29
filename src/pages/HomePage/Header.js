@@ -19,7 +19,7 @@ export default function Header(){
                 <Logo/>
                 <div id="toggle" onClick={toggle}></div>
             </header>
-            <div className="content" style={{height: 455}}>
+            <div className="content" style={{minHeight: 455}}>
                 <br/>
                 <br/>
                 <h2>Paz do Senhor,<br/>Somos a <span>Igreja IADEP</span></h2>
