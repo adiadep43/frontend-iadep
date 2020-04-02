@@ -233,7 +233,7 @@ import Navigate from './../Navigate';
               <h2>Mão Amiga <span>IADEP</span></h2>
               <br/>
               <br/>
-              <p>A Mão Amiga Iadep é um projeto social em que ajudamos os mais nessecitados e fazemos o ide do Senhor, e cumprimos a palavra em cuidar dos orfãos e das viúvas!</p>
+              <p>A Mão Amiga Iadep é um projeto social em que ajudamos os mais nessecitados e fazemos o ide do Senhor, e cumprimos a palavra em cuidar dos orfãos e das viúvas! (Tiago 1:27)</p>
               <br/>
               <br/>
               <img src={acoes[0]} onClick={() => this.setState({ isOpen1: true, photoIndex1: 0 })} />
