@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../../global.css';
 import './style.css';
 import ContBar from './../ContBar';
 import Logo from './../Logo';
+import api from './../../services/api';
 
 export default function Header(){
     function toggle() {
@@ -13,6 +14,16 @@ export default function Header(){
         sec.classList.toggle('active');
         nav.classList.toggle('active');
     }
+    const [live, setLive] = useState(false);
+
+    useEffect(() => {
+        api.get('live').then(response => {
+            const {0: live} = response.data;
+            setLive(live.live);
+            console.log(response.data)
+          })
+        }, [live.live]);
+
     return(
         <section className="banner" id="sec">
             <header>
@@ -29,6 +40,12 @@ export default function Header(){
                     A cada dia vivemos os milagres do nosso Senhor Jesus!</p>
                 <Link to="/galeria" id="a">Saiba Mais</Link>
                 <br/>
+                {!!live && (
+                    <>
+                    <Link to="/live" id="a">Assistir á Live!</Link>
+                    <br/>
+                    </>
+                )}
                 <Link to="/radio" id="ab">Ouvir a Rádio</Link>
                 <ContBar/>
             </div>

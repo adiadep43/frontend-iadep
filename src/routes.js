@@ -6,6 +6,8 @@ import RadioPage from './pages/RadioPage';
 import AcaoPage from './pages/AcaoPage';
 import GaleriaPage from './pages/GaleriaPage';
 import ContatoPage from './pages/ContatoPage';
+import LivePage from './pages/LivePage';
+import ConfigPage from './pages/ConfigPage';
 
 export default function Routes(){
     return(
@@ -16,6 +18,8 @@ export default function Routes(){
                 <Route path='/acao-social' component={AcaoPage} />
                 <Route path='/galeria' component={GaleriaPage} />
                 <Route path='/contato' component={ContatoPage} />
+                <Route path='/live' component={LivePage} />
+                <Route path='/config' component={ConfigPage} />
             </Switch>
         </BrowserRouter>
     )

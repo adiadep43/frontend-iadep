@@ -247,4 +247,8 @@ header .logo img{
         margin: initial;
         margin-right: 10px;
     }
+    #myId{
+        width: 140%;
+        height: 240px;
+    }
 }
