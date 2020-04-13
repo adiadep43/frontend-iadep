@@ -18,6 +18,6 @@ export default function ContBar(){
         <ul className="sci">
             <li><a href="https://www.facebook.com/ad.evangelhoprimitivo.7"><img src={'https://unpkg.com/ionicons@5.0.0/dist/svg/logo-facebook.svg'}/></a></li>
             <li><a href="https://www.instagram.com/igrejaiadep/"><img src={'https://unpkg.com/ionicons@5.0.0/dist/svg/logo-instagram.svg'}/></a></li>
-            <li><Link to="/radio"><img src={'https://unpkg.com/ionicons@5.0.0/dist/svg/radio-outline.svg'}/></Link></li>
+            <li><a href="https://www.youtube.com/channel/UCMB4oTOV3SRI9OFIr_8Q3ZQ"><img src={'https://unpkg.com/ionicons@5.0.0/dist/svg/logo-youtube.svg'}/></a></li>
         </ul>
 )}
