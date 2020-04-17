@@ -55,7 +55,7 @@ export default function RadioPage(){
             <div>
                 <h2>Ouça-nos pelo nosso Aplicativo!</h2>
                 <br/>
-                <img src='https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png' width='300px' />
+                <a href="https://play.google.com/store/apps/details?id=com.adiadep.radioiadep"><img src='https://play.google.com/intl/pt-BR/badges/static/images/badges/pt-br_badge_web_generic.png' width='300px' /></a>
             </div>
             <div id='radio'>
                 <div id='rd'>
