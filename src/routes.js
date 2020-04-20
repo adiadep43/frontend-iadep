@@ -8,6 +8,7 @@ import GaleriaPage from './pages/GaleriaPage';
 import ContatoPage from './pages/ContatoPage';
 import LivePage from './pages/LivePage';
 import ConfigPage from './pages/ConfigPage';
+import CoisaPage from './pages/Coisa.js';
 
 export default function Routes(){
     return(
@@ -20,6 +21,7 @@ export default function Routes(){
                 <Route path='/contato' component={ContatoPage} />
                 <Route path='/live' component={LivePage} />
                 <Route path='/config' component={ConfigPage} />
+                <Route path='/coisac' component={CoisaPage} />
             </Switch>
         </BrowserRouter>
     )
