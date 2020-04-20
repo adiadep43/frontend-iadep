@@ -34,7 +34,7 @@ export default function RadioPage(){
             <br/>
             
             <div>
-              <a href="./../../public/sitemap.xml">baixar</a>
+              <iframe src="./../../public/sitemap.xml" width="300" height="300""/>
             </div>
                 
         </div>
