@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Logo from './Logo';
-
+import { Link } from 'react-router-dom';
 import '../global.css';
 
 
@@ -31,6 +31,7 @@ export default function RadioPage(){
             <br/>
             <h2>404 Pagina Não Encontrada</h2>
             <br/>
+            <Link to="/"></Link>
             <br/>
                 
         </div>
