@@ -61,7 +61,7 @@ export default class extends React.Component{
                 color: #8B0000;
              ">Pix</h3>
             <br>
-            <img src={Pix}" style="
+            <img src={Pix} style="
                 padding-left: 20px;
             ">
             <br/>
