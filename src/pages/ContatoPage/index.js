@@ -42,25 +42,33 @@ export default class extends React.Component{
                 font-size: 25px;
                 color: #8B0000;
             ">Transferência</h3>
-            <br>
+            <br/>
             <p style="
                 padding-left: 45px;
             ">Banco: Banco do Brasil</p>
-            <br>
+            <br/>
             <p style="
                 padding-left: 45px;
-            ">Conta Corrente:</p>
-            <br>
+            ">Agência: 3887-3</p>
+            <br/>
             <p style="
                 padding-left: 45px;
-            ">CNPJ:</p>
-            <br>
+            ">Conta Corrente: 63204-0</p>
+            <br/>
+            <p style="
+                padding-left: 45px;
+            ">CNPJ: 36.295.623/0001-86</p>
+            <br/>
             <h3 style="
                 padding-left: 20px;
                 font-size: 25px;
                 color: #8B0000;
              ">Pix</h3>
-            <br>
+            <br/>
+            <p style="
+                padding-left: 45px;
+            ">Chave do Pix: 36.295.623/0001-86</p>
+            <br/>
             <img src={Pix} style="
                 padding-left: 20px;
             "/>
