@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../global.css';
 import Logo from './../Logo';
-import Pix from './../asset/pix.png';
+import Pix from './../../asset/pix.png';
 
 import './style.css';
 
