@@ -63,7 +63,7 @@ export default class extends React.Component{
             <br>
             <img src={Pix} style="
                 padding-left: 20px;
-            ">
+            "/>
             <br/>
             <h2>Contatos</h2>
             <br/>
