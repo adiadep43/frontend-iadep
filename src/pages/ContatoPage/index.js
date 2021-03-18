@@ -37,41 +37,41 @@ export default class extends React.Component{
             <br/>
             <h2>Ajude a Obra!</h2>
             <br/>
-            <h3 style="
-                padding-left: 20px;
-                font-size: 25px;
-                color: #8B0000;
-            ">Transferência</h3>
+            <h3 style={{
+                paddingLeft: '20px',
+                fontSize: '25px',
+                color: '#8B0000'
+            }}>Transferência</h3>
             <br/>
-            <p style="
-                padding-left: 45px;
-            ">Banco: Banco do Brasil</p>
+            <p style={{
+                paddingLeft: '45px'
+            }}>Banco: Banco do Brasil</p>
             <br/>
-            <p style="
-                padding-left: 45px;
-            ">Agência: 3887-3</p>
+            <p style={{
+                paddingLeft: '45px'
+            }}>Agência: 3887-3</p>
             <br/>
-            <p style="
-                padding-left: 45px;
-            ">Conta Corrente: 63204-0</p>
+            <p style={{
+                paddingLeft: '45px'
+            }}>Conta Corrente: 63204-0</p>
             <br/>
-            <p style="
-                padding-left: 45px;
-            ">CNPJ: 36.295.623/0001-86</p>
+            <p style={{
+                paddingLeft: '45px'
+            }}>CNPJ: 36.295.623/0001-86</p>
             <br/>
-            <h3 style="
-                padding-left: 20px;
-                font-size: 25px;
-                color: #8B0000;
-             ">Pix</h3>
+            <h3 style={{
+                paddingLeft: '20px',
+                fontSize: '25px',
+                color: '#8B0000'
+            }}>Pix</h3>
             <br/>
-            <p style="
-                padding-left: 45px;
-            ">Chave do Pix: 36.295.623/0001-86</p>
+            <p style={{
+                paddingLeft: '45px'
+            }}>Chave do Pix: 36.295.623/0001-86</p>
             <br/>
-            <img src={Pix} style="
-                padding-left: 20px;
-            "/>
+            <img src={Pix} style={{
+                paddingLeft: '20px'
+            }}/>
             <br/>
             <h2>Contatos</h2>
             <br/>
