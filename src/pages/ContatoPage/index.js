@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../global.css';
 import Logo from './../Logo';
+import Pix from './../asset/pix.png';
 
 import './style.css';
 
@@ -31,7 +32,38 @@ export default class extends React.Component{
             <div id="toggle" onClick={toggle}></div>
         </header>
         <div className="content">
-            
+        
+            <br/>
+            <br/>
+            <h2>Ajude a Obra!</h2>
+            <br/>
+            <h3 style="
+                padding-left: 20px;
+                font-size: 25px;
+                color: #8B0000;
+            ">Transferência</h3>
+            <br>
+            <p style="
+                padding-left: 45px;
+            ">Banco: Banco do Brasil</p>
+            <br>
+            <p style="
+                padding-left: 45px;
+            ">Conta Corrente:</p>
+            <br>
+            <p style="
+                padding-left: 45px;
+            ">CNPJ:</p>
+            <br>
+            <h3 style="
+                padding-left: 20px;
+                font-size: 25px;
+                color: #8B0000;
+             ">Pix</h3>
+            <br>
+            <img src={Pix}" style="
+                padding-left: 20px;
+            ">
             <br/>
             <h2>Contatos</h2>
             <br/>
