@@ -35,6 +35,7 @@ export default class extends React.Component{
         
             <br/>
             <br/>
+            <br/>
             <h2>Ajude a Obra!</h2>
             <br/>
             <h3 style={{
@@ -70,8 +71,11 @@ export default class extends React.Component{
             }}>Chave do Pix: 36.295.623/0001-86</p>
             <br/>
             <img src={Pix} style={{
-                paddingLeft: '20px'
+                paddingLeft: '45px'
             }}/>
+            <br/>
+            <br/>
+            <br/>
             <br/>
             <h2>Contatos</h2>
             <br/>
